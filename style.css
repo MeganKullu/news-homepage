@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;700&display=swap');
+* {
+    margin : 0%
+}
+
+.page-layout {
+    font-family: "Outfit";
+    padding: 30px 100px 30px 100px;
+}
+
+.main-grid {
+    display:grid;
+    grid-template-rows: 0.1fr 4fr 0.2fr ;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+    margin-right: 40px;
+    font-size: 1rem;
+}
+
+.logo {
+    justify-content: flex-start;
+}
+
+
+.middle-part {
+    display : grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-column {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    margin: 0 20px 0 0;
+}
+
+.main-image>img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.header {
+    display : grid;
+    grid-template-columns: 1.06fr 1fr;
+}
+
+.bottom-part {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.new-column {
+    display: grid;
+    background-color: hsl(240, 100%, 5%) ;
+    color: white;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: hsl(35, 77%, 62%);
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-weight:600;
+    margin-bottom: 10px;
+    margin-top : 20px;
+}
+
+.first-paragraph, .second-paragraph {
+    margin-bottom: 20px;
+}
+
+.head {
+    color: hsl(240, 100%, 5%);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.button {
+    display:flex;
+    background-color:hsl(5, 85%, 63%) ;
+    padding: 15px 30px 15px 30px;
+    width : 100px;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 50px;
+}
+
+.button-text {
+    letter-spacing: 2px;
+}
+
+.part-1, .part-2, .part-3 {
+    display : flex;
+    justify-content: space-between;
+}
+
+.paragraph {
+    padding: 20px 20px 20px 0;
+}
+
+.sideimage>img {
+    display: block;
+    height:130px ;
+    width:100px;
+    margin-right: 20px;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(198, 200, 202);
+}
+
+.sub-title {
+    font-weight: 700;
+    color: hsl(240, 100%, 5%) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.attribution {
+    padding-top: 30px;
+}
+
+hr {
+   border: none;
+   height: 1px;
+   color: white;
+   background-color: white;
+}
