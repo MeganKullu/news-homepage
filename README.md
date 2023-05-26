@@ -29,7 +29,7 @@ The challenge is to create a webpage as close as possible to the given design.
 
 ### Links
 
-- Live Site URL: [View my solution here](https://megankullu.github.io/news-homepage/)
+- Live Site URL: [View my solution here](https://6470e91cca822c026f3d9074--lambent-tapioca-94d7a4.netlify.app/)
 
 ## My process
 
